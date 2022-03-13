@@ -11,6 +11,7 @@ EntryPoint:
 	ld a, 0
 	ld [rNR52], a
 
+
 	; Do not turn the LCD off outside of VBlank
 WaitVBlank:
 	ld a, [rLY]
